@@ -108,14 +108,11 @@
 							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
 								I'm Graham, a fifth-year PhD student in the Department of Physics and Astronomy at West Virginia University!
-								My work is centered on pulsars, fast-spinning neutron stars emitting beams of radio waves, and gravitational wave
-								detection via pulsar timing arrays. I work with Prof. Maura McLaughlin at the <a href="https://gwac.wvu.edu/">
-								Center for Gravitational Waves and Cosmology</a>.
-								<br><br>
-								I graduated from Swarthmore College in 2020 with a bachelor's in astrophysics and mathematics. While I was there,
-								I worked with <a href="https://astro.swarthmore.edu/~cohen/students.html">David Cohen</a> to use x-ray
-								spectra from Chandra to study the winds of massive O and B stars. That said, pulsars have always been what I'm
-								most passionate about, though, which is why I ended up here at WVU.
+								My work is centered on pulsars, fast-spinning neutron stars emitting beams of radio waves. I work with Prof.
+								Maura McLaughlin at the <a href="https://gwac.wvu.edu/">Center for Gravitational Waves and Cosmology</a>, as
+								well as for <a href="https://nanograv.org/">NANOGrav</a> and the <a href="https://ipta4gw.org/">IPTA</a>. In
+								particular, I specialize in single pulse searches, studies of the interstellar medium, and noise modeling for
+								pulsar timing arrays.
 								<br><br>
 								I also enjoy science communication, and outreach is a big part of my academic life. From 2021 to 2023, I wrote for
 								<a href="https://astrobites.org/">Astrobites</a>, writing accessible summaries of papers on arXiv. I also mentor
@@ -175,11 +172,9 @@
 								<br><br>
 								I'm a member of the <a href="http://nanograv.org/">North American Nanohertz Observatory for Gravitational
 								Waves</a>, or NANOGrav, a PTA based in North America that primarily uses the Green Bank Telescope and the
-								now-collapsed Arecibo Observatory, along with some data from CHIME and the Very Large Array. We've come very close
-								to detecting the stochastic background and have already seen hints of it in our 12.5-year data set. However, we're
-								not the only pulsar timing array out there; the European Pulsar Timing Array (EPTA) and the Parkes Pulsar Timing
-								Array (PPTA) are increasingly sensitive, and there are newer collaborations like the Indian Pulsar Timing Array
-								(InPTA) and MeerKAT.
+								now-collapsed Arecibo Observatory, along with CHIME and the Very Large Array. NANOGrav has come quite close to a 
+								detection of the stochastic gravitational wave background. However, it's not only pulsar timing array out there;
+								sister collaborations in Europe, Australia, India, South Africa and China have released similar results.
 								<br><br>
 								We can increase the sensitivity of a PTA by adding in new pulsars and new telescopes -- so it makes sense to combine
 								the data from all of these PTAs into one large data set. The <a href="http://ipta4gw.org/">
@@ -190,18 +185,6 @@
 								<img src="images/ipta telescopes.png" alt="Map of the radio telescopes used by the IPTA">
 								<sub>Telescopes used by the IPTA. Image credit: Shami Chatterjee and the NANOGrav Collaboration</sub>
 							</span>
-							</p>
-							<p>
-								<b>Further reading</b>
-								<ul>
-									<li>The NANOGrav 12.5-year data set: <a href="https://arxiv.org/abs/2005.06495">wideband timing</a>,
-										<a href="https://arxiv.org/abs/2009.04496">stochastic background search</a>,
-										<a href="https://arxiv.org/abs/2301.03608">continuous wave search</a>
-									</li>
-									<li>The IPTA: <a href="https://arxiv.org/abs/1602.03640">IPTA DR1</a>,
-										<a href="https://arxiv.org/abs/2201.03980">IPTA DR2</a>
-									</li>
-								</ul>
 							</p>
 						</article>
 						<!-- Here is the "RRATs" card. -->
@@ -228,7 +211,7 @@
 								Arecibo's ALFA receiver. It's yielded numerous millisecond pulsars and RRATs, and the dozen or so RRATs I'm
 								working on are some of the few that have yet to be analyzed.
 								<br><br>
-								Studying RRAT is a challenging task because we know some of these sources from only a few pulses in a couple observations.
+								Studying RRATs is a challenging task because we know some of these sources from only a few pulses in a couple observations.
 								Extracting useful information from all of them has necessitated the use of several different techniques, including
 								a reasonably standard <a href="https://github.com/scottransom/presto">PRESTO</a>-based single pulse pipeline and
 								Bayesian analyses. The results, though, are important: single pulse statistical analyses and, for a few of the sources,
@@ -237,25 +220,7 @@
 								Paper: <em>Timing and statistical analysis of twelve single pulse sources discovered in the PALFA survey</em>, <strong>
 								G. M. Doskoch</strong>, M. A. McLaughlin, <em>et al.</em> for the PALFA collaboration (in prep.)
 							</p>
-							<p>
-								<b>Further reading</b>
-								<ul>
-									<li><a href="https://arxiv.org/abs/astro-ph/0511587">McLaughlin et al. 2006</a>, the paper
-										on the discovery of the first RRATs
-									</li>
-									<li><a href="https://arxiv.org/abs/1212.1716">Burke-Spolaor 2013</a>, a discussions of just how
-										to classify RRATs
-									</li>
-									<li><a href="https://arxiv.org/abs/1711.07808">Jiang et al. 2017</a>, on applying wavelet denoising
-										to RRATs
-									</li>
-									<li><a href="https://arxiv.org/abs/1809.06729">Shapiro-Albert et al. 2018</a>, on RRAT spectra
-									</li>
-									<li><a href="https://arxiv.org/abs/2108.02320">Parent et al. 2021</a>, on the newest set of
-										PALFA discoveries
-									</li>
-								</ul>
-							</p>
+
 						</article>
 		
 						<!-- Here is the "Giant pulses" card. -->
@@ -266,49 +231,26 @@
 							</span> -->
 							<p>
 								Single-pulse analyses can be useful in other realms of pulsar science. Some pulsars, like the Crab Pulsar,
-								often emit giant pulses, much more energetic than normal ones. While the Crab isn't a RRAT, analyzing giant
-								pulses using single-pulse techniques can give us clues as to what's behind them, possibly allowing glimpses
-								into pulsar emission mechanisms. I'm currently co-leading an outreach project mentoring high school and
-								college students from the <a href="https://pulsars.nanograv.org"/>Pulsar Science Collaboratory</a>
+								often emit giant pulses, much more energetic than normal ones. I'm currently co-leading an outreach project
+								mentoring high school and college students from the <a href="https://pulsars.nanograv.org"/>Pulsar Science Collaboratory</a>
 								studying giant pulses from the Crab using the 20-meter telescope at the	Green Bank Observatory. We monitor the
-								Crab once per day, search the observations for giant pulses, and then conduct statistical analyses on the resulting
-								data set.
+								Crab on an approximately daily basis, search the observations for giant pulses, and then perform statistical analyses
+								on the resulting data set.
 								<br><br>
-								We hope to answer -- or confirm earlier answers to -- four major questions:
-								<ol>
-									<li>How does the Crab's giant pulse rate change over time? Is there any evidence for periodicity? Is there
-										evidence for refractive scintillation, and if so, how does this affect the apparent behavior of
-										the Crab's giant pulses?
-									</li>
-									<li>What are typical wait times between giant pulses? Do they depend on the strength of the first pulse?
-									</li>
-									<li>When in the pulsar's rotational period are giant pulses emitted? Decades of observations show that at L-band,
-										they are almost always emitted at the Crab's main pulse and interpulse; is there any deviation from
-										this, like the high-frequency components seen at 4-8.4 GHz?
-									</li>
-									<li>How do these properties change with observing frequency? Can we say anything about pulse rate or
-										morphology? Can we detect the same pulses across different frequency bands, e.g. L-band and S-band?
-									</li>
-								</ol>
-								We expect this project to be just the start of a larger study of the Crab's giant pulse behavior, involving data taken
-								on even longer timescales and hopefully incorporating a number of radio telescopes operating concurrently.
-							</p>
-							<p>
-								<b>Further reading</b>
-								<ul>
-									<li><a href="https://www.science.org/doi/10.1126/science.162.3861.1481">Staelin & Riefenstein 1968</a>,
-										describing the discovery of the Crab, which was initially only found through its giant pulses
-									</li>
-									<li><a href="https://arxiv.org/abs/astro-ph/9604163">Moffett & Hankins 1996</a>, featuring some interesting
-										giant pulse emission not at the main pulse or interpulse
-									</li>
-									<li><a href="https://ui.adsabs.harvard.edu/abs/2012A%26A...538A...7K/abstract">Karuppusamy et al. 2012</a>,
-										on low-frequency Crab giant pulse studies
-									</li>
-									<li><a href="https://arxiv.org/abs/1210.0452">Mickaliger et al. 2012</a>, a statistical study of Crab giant
-										pulses at both L-band and 330 MHz
-									</li>
-								</ul>
+								Our first observing run lasted about 15 months and yielded some interesting insights into the Crab's giant pulse
+								behavior We found that it is modulated by scintillation in the interstellar medium, as was expected based on existing
+								studies of the Crab's ordinary emission. We also found indications of a short, dramatic spike in giant pulse rate in
+								late 2022, of unknown origin
+								<br><br>
+								Our observations are continuing, and passed the three-year threshold in the spring of 2025. Several other projects
+								using the data are in the works, including one using the observations to time the Crab and another to produce an even
+								larger giant pulse data set, spanning hundreds of hours of observing time.
+								<br><br>
+								Paper: <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...973...87D/abstract"><em>A Statistical Analysis of Crab
+								Pulsar Giant Pulse Rates</em>, <strong>G. M. Doskoch</strong>, A. Basuroski, K. Halley, <em>et al.</em> (,
+								<em>ApJ</em>, 2024)</a>
+								<br>
+								<a href="https://arxiv.org/abs/2407.15996">arxiv:2407.15996</a>
 							</p>
 						</article>
 		
